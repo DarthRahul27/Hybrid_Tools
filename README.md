@@ -15,8 +15,6 @@ Script to find parental lineages of hybrid isolates
 
 Example of tab file for -t:
     04CN-64-029  VNI 04CN-64-029.vcf
-    ERS1238896   VNB ERS1238896.vcf
-
 E.g.,
 
 perl VCF-Publiv-Private-Alleles-Script-v2.pl -t name_location.tab -v 881205_filtered.vcf -o test_for_script
