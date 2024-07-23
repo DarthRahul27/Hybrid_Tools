@@ -38,4 +38,18 @@ Options:
 
 
 
+## Data_Frame_Hybrids_Plotting.R 
+This R script gets the dataframe from from the Mapping_Allele_Inheritance_10kb_Windows_Script.pl. This then plots allele inheritance from parent 1 and parent 2, against the whole genome. 
+### Info:
+Usage: ./plot_genomic_data.R -d <datafile>
+
+Options:
+  -d, --data     Path to the input data file. The file should be a tab-delimited file
+                 containing columns: Chromosome, Running_Position, First_Parent_Count,
+                 Second_Parent_Count.
+
+Example:
+  ./plot_genomic_data.R -d /path/to/your/datafile.tab
+
+
 
